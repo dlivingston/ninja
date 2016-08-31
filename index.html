@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Secrets of the JavaScript Ninja</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Secrets of the JavaScript Ninja</title>
+
+	<script src="js/lib/jquery.min.js"></script>
+
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <script>
-        var x = 123;
-        console.log(x);
-    </script>
+	<h1>Hello World!</h1>
+	<div id="test"></div>
+	<script>
+		var values = [ 213, 16, 2058, 54, 10, 1965, 57, 9 ];
+		values.sort(function(value1, value2){return value1 - value2; });
+		console.log(values);
+		$(document).ready(function () {
+			$("#test").append("testing");
+		})
+	</script>
 </body>
 </html>
