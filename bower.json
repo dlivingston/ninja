@@ -1,0 +1,17 @@
+{
+  "name": "ninja",
+  "description": "Practice Repo for testing",
+  "main": "index.js",
+  "authors": [
+    "Don Livingston <donlivingston@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/dlivingston/ninja",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
